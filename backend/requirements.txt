@@ -1,0 +1,44 @@
+# ── Web Framework ──────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+
+# ── AI Orchestration (Versions Loosened for Compatibility) ───────────────
+langchain
+langchain-core
+langchain-community
+langgraph
+langchain-google-genai
+
+# ── Memory: Vector Store ────────────────────────────────────────────────────────
+pinecone-client
+langchain-pinecone
+
+# ── Memory: Knowledge Graph ─────────────────────────────────────────────────────
+neo4j
+langchain-neo4j
+
+# ── Data Validation & Settings ─────────────────────────────────────────────────
+pydantic
+pydantic-settings
+
+# ── Async & HTTP ───────────────────────────────────────────────────────────────
+httpx
+aiofiles
+
+# ── Google APIs (Calendar Tool) ─────────────────────────────────────────────────
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv
+tenacity
+structlog
+tiktoken
+pytz
+
+# ── Dev / Testing ──────────────────────────────────────────────────────────────
+pytest
+pytest-asyncio

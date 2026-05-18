@@ -1,0 +1,12 @@
+# Python environments
+backend/.venv/
+.venv/
+
+# Secret API Keys (Kabhi leak nahi karni)
+backend/.env
+.env
+
+# Cache & system files
+__pycache__/
+*.pyc
+.DS_Store
