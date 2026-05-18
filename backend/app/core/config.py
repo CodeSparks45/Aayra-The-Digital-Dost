@@ -47,7 +47,7 @@ class Settings(BaseSettings):
         ...,
         description="Google AI Studio / Vertex AI API key for Gemini 1.5 Flash.",
     )
-    GEMINI_MODEL: str = "gemini-1.5-flash"
+    GEMINI_MODEL: str = "gemini-2.5-flash"
     GEMINI_TEMPERATURE: float = Field(default=0.7, ge=0.0, le=2.0)
     GEMINI_MAX_OUTPUT_TOKENS: int = Field(default=2048, ge=256, le=8192)
 
